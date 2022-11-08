@@ -100,3 +100,58 @@ body {
   color: #fff;
 }
 /************************** Header styles end **************************/
+
+/************************** Main styles start **************************/
+.site-main{
+    background-color: #fff;
+}
+
+/* Hero section styles start */
+.hero-section{
+    background-color: #fff;
+    background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 520px) calc(50% - 60px);
+    padding-top: 91px;
+    padding-bottom: 222px;
+}
+
+.hero-section__content{
+    width: 565px;
+}
+
+.hero-section__content-title{
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: -2px;
+    color: #34313D;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.hero-section__content-desc{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #9E9AA8;    
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+
+.hero-section__content-get-started{
+    display: inline-block;
+    background-color: #2BD0D0;
+    border-radius: 28px;
+    padding-top: 14px;
+    padding-right: 40px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/* Hero section styles end */
+/************************** Main styles end **************************/
